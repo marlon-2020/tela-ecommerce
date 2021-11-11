@@ -1,0 +1,152 @@
+/*----------------------Reset------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-style: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+@font-face {
+    font-family: vintageParty;
+    src: url(../assets/VintageParty-FreeVersion.ttf);
+}
+body {
+    background-color: lightblue;
+}
+/*----------------------App-container------------------------*/
+.app-container{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+/*----------------------MENU------------------------*/
+.app-header-container{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: vintageParty;
+    font-size: 60px;
+}
+.app-header-search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*----------------------MAIN------------------------*/
+/*CENTRO*/
+.app-main-container{
+    background-color: darkgray;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-products-container{
+    width:60%;
+    margin: 10px 0;
+}
+.app-products-container{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    border: 1px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 15px;
+}
+.product-picture-container>img{
+    width:250px;
+}
+.product-name-container{
+    width:80%;
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 2.5px 0;
+    text-align:center;
+}
+.product-detail-container-all{
+    width:80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 100% 20%;
+}
+.product-detail-container{
+    background-color:whitesmoke;
+    border:1px solid black;
+    margin: 2.5px 0;
+    border-radius: 10px;
+    text-align:center;
+}
+.product-details{
+    width:100%  ;
+}
+/*-----------------------------*/
+.product-value-click{
+    width:30px;
+}
+.product-value-container{
+    width:80%;
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 5px 0;
+    text-align:center;
+}
+.product-quantity-container{
+    width:100%;
+}
+.product-quantity-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-quantity-number{
+    width:80%;
+    height:20px;
+    text-align:center;
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+.product-quantity-number::-webkit-inner-spin-button,.product-quantity-number::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.product-buy-butn{
+    width:80%;
+    height:40px;
+    text-align:center;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: ghostwhite;
+}
+.product-buy-butn:hover{
+    border:1px solid ghostwhite;
+    border-radius: 15px;
+    background-color: black;
+    color:antiquewhite;
+    cursor:pointer;
+}
+
+/*LATERAIS*/
+.app-menu-left-container, .app-menu-right-container{
+    width: 20%;
+}
+
+/*----------------------FOOTER------------------------*/
+.app-footer-container{
+    background-color: darkcyan;
+    width: 100%;
+}
