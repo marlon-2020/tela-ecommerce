@@ -105,7 +105,7 @@ body {
 }
 /*-----------------------------*/
 .product-value-click{
-    width:30px;
+    width:25px;
 }
 .product-value-container{
     width:80%;
@@ -163,7 +163,11 @@ body {
     justify-content: start;
 }
 .cart-icon{
-    width:100px;
+    width:50px;
+    margin:0 10px 0 0;
+}
+.counter-cart-prducts{
+    margin:0 10px 0 0;
 }
 .cart-product-container{
     display: flex;
