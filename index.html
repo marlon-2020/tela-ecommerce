@@ -26,21 +26,103 @@
                     <a href="">EXEMPLO</a>
                     <a href="">EXEMPLO</a>
                 </div>
-            </div>
-            <div class="app-header-search-container">
-                <div class="header-search">
-                    <form action="">
+                <div class="header-search-container">
+                    <form action="" class="header-search">
                         <input type="text" name="" id="">
+                        <a href=""><img src="/static/images/search.png" alt="" width="30px"></a>
                     </form>
-                </div>
-                <div class="header-search-icon">
-                    <a href=""><img src="/static/images/search.png" alt="" width="30px"></a>
                 </div>
             </div>
         </header>
         <main class="app-main-container">
             <aside class="app-menu-left-container">
-                EXEMPLO
+                <div class="app-menu-select-container">
+                    <label for="sector"><h1 class="menu-select-title">Setores</h1></label>
+                    <select name="sector" id="sector">
+                        <optgroup label="Componentes">
+                            <option value="ram">Memória RAM</option>
+                            <option value="hd">HD's</option>
+                        </optgroup>
+                        <optgroup label="Computadores">
+                            <option value="pc">Computadores Desktop</option>
+                            <option value="notebooks">Notebooks</option>
+                        </optgroup>    
+                        <optgroup label="Cabos">
+                            <option value="adaptadores">Adaptadores</option>
+                            <option value="cabos">Cabos</option>
+                        </optgroup>
+                        <optgroup label="Periféricos">
+                            <option value="teclado">Teclado</option>
+                            <option value="mouse">Mouse</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="app-menu-chelist-container">
+                    <h1 class="menu-checklist-title">Preços</h1>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                </div>
+                <div class="app-menu-chelist-container">
+                    <h1 class="menu-checklist-title">Estado</h1>  
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                </div>
+                <div class="app-menu-chelist-container">
+                    <h1 class="menu-checklist-title">Desconto</h1>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <input type="checkbox" name="" id="">
+                        </form>
+                    </p>
+                </div>
+                <div class="app-menu-chelist-container">
+                    <h1 class="menu-checklist-title">Avaliação</h1>
+                    <p class="menu-checklist-option">
+                        <form action="">
+                            <p>5<input type="radio" name="star" id=""></p>
+                            <p>4<input type="radio" name="star" id=""></p>
+                            <p>3<input type="radio" name="star" id=""></p>
+                            <p>2<input type="radio" name="star" id=""></p>
+                            <p>1<input type="radio" name="star" id=""></p>
+                        </form>
+                    </p>
+                </div>
             </aside>
             <article class="app-products-container">
                 <div class="product-grid-colunm">
@@ -288,7 +370,29 @@
                 </div>
             </article>
             <aside class="app-menu-right-container">
-                EXEMPLO
+                <div class="app-menu-right-elements-container">
+                    <div class="cart-icon-container">
+                        <p><img src="/static/assets/cart.png" alt="cart-icon" class="cart-icon"></p>
+                    </div>
+                    <div class="product-grid-colunm">
+                        <div class="cart-product-container">
+                            <div class="cart-product-picture-container">
+                                <img src="static/assets/computador.png" alt="produto">
+                            </div>
+                            <div class="product-name-container">
+                                <p class="product-name">NOME</p>
+                            </div>
+                            <div class="product-detail-container-all">
+                                <div class="product-detail-container">
+                                    <p class="product-details">DETALHES</p>
+                                </div>
+                            </div>
+                            <div class="product-value-container">
+                                <p class="product-value">VALOR TOTAL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </aside>
         </main>
         <footer class="app-footer-container">
