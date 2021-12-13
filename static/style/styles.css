@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-style: 20px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -40,6 +40,10 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+.cart-icon-container{
+    display: flex;
+    align-items: baseline;
+}
 .logo{
     font-family: vintageParty;
     font-size: 60px;
@@ -49,6 +53,10 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.search-input{
+    width:500px;
+    height:30px;
+}
 /*----------------------MAIN------------------------*/
 /*CENTRO*/
 .app-main-container{
@@ -57,6 +65,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+    height:1698px;
 }
 .app-products-container{
     width:60%;
@@ -154,13 +163,14 @@ body {
 /*LATERAIS*/
 .app-menu-left-container, .app-menu-right-container{
     width: 20%;
+    height:1698px;
 }
 
 /*----------Cart----------*/
 .app-menu-right-elements-container{
     display:flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
 }
 .cart-icon{
     width:50px;
@@ -169,11 +179,12 @@ body {
 .counter-cart-prducts{
     margin:0 10px 0 0;
 }
+
 .cart-product-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: start;
+    justify-self: center;
     border: 1px;
     border-radius: 10px;
     background-color: antiquewhite;
