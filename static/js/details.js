@@ -12,7 +12,7 @@ function create_div(i) {
     new_div.appendChild(text_node)
     cart_product_grid_colunm[0].append(new_div)
     new_div.style.position = "fixed"
-    new_div.style.top = "30%"
+    new_div.style.top = "130px"
 }
 
 function remove_div() {

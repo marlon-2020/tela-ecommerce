@@ -10,13 +10,12 @@
     font-family: vintageParty;
     src: url(../assets/VintageParty-FreeVersion.ttf);
 }
-body {
-    background-color: lightblue;
-}
+
 /*----------------------App-container------------------------*/
 .app-container{
-    display:flex;
-    flex-flow: column;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 130px auto 130px;
     align-items: center;
     justify-content: center;
 }
@@ -61,9 +60,7 @@ body {
 /*CENTRO*/
 .app-main-container{
     background-color: darkgray;
-    width: 100%;
     display:flex;
-    align-items: center;
     justify-content: center;
     height:1698px;
 }
@@ -198,4 +195,49 @@ body {
 .app-footer-container{
     background-color: darkcyan;
     width: 100%;
+}
+@media only screen and (max-width: 1300px) {
+    .app-products-container{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .app-main-container{
+        height: 2840px;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .app-products-container{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .app-main-container{
+        height: 2840px;
+    }
+    .app-menu-left-container{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+/*---------APP----------*/    
+    .app-header-container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .app-main-container{
+        height: 2840px;
+        display: block;
+    }
+    .app-products-container{
+        width: 90%;
+        display:grid;
+        grid-template-columns: 100%;
+        margin:auto;
+    }
+/*------------MENU----------*/
+    .app-menu-left-container{
+        display: none;
+    }
 }
